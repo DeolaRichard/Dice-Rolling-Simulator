@@ -9,3 +9,5 @@ def roll_dice():
         dice2 = random.randint(1, 6)
 
         print("Dice rolled: {} and {}".format(dice1, dice2))
+
+        roll = input("Roll again? (Yes/NO): ")
